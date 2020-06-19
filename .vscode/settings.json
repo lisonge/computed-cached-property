@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "C:\\Users\\19055\\.virtualenvs\\computed-cached-property-gTdZmg-H\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "code-runner.executorMap": {
+        "python": "C:\\Users\\19055\\.virtualenvs\\computed-cached-property-gTdZmg-H\\Scripts\\python.exe",
+    }
+}
