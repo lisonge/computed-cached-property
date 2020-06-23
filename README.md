@@ -2,7 +2,7 @@
  * @Date: 2020-06-19 22:44:45
  * @LastEditors: code
  * @Author: code
- * @LastEditTime: 2020-06-23 21:54:51
+ * @LastEditTime: 2020-06-23 21:58:40
 -->  
 
 # computed-cached-property
@@ -15,7 +15,7 @@ A decorator for caching computed properties in classes. like Vue's Computed-Prop
 pip install computed-cached-property
 ```
 
-## usage
+## example
 
 ```python
 from computed_cached_property import computed_cached_property
@@ -36,7 +36,7 @@ class A:
 
     @property
     @computed_cached_property(typed=Ture)
-    # same as @functools.lru_cache(maxsize=1, typed=typed)
+    # same as @functools.lru_cache(maxsize=1, typed=Ture)
     def v5(self):
         print('run code in v4 function')
         return f'v1:{self.v1}, v2:{self.v2}, v3:{self.v3}'
